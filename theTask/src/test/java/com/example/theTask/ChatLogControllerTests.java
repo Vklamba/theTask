@@ -24,7 +24,7 @@
 //
 //    @Test
 //    public void testGetChatLogs() throws Exception {
-//        // Mocking the DummyData
+//        
 //        List<ChatLog> chatLogs = Arrays.asList(
 //                new ChatLog("Message 1", 1L, true, UUID.randomUUID().toString(), "user1"),
 //                new ChatLog("Message 2", 12L, false, UUID.randomUUID().toString(), "user1"),
@@ -35,7 +35,7 @@
 //
 //        mockMvc.perform(get("/chatlogs/user1"))
 //                .andExpect(status().isOk())
-//                .andExpect(jsonPath("$.length()").value(2)); // Assuming user1 has 2 chat logs
+//                .andExpect(jsonPath("$.length()").value(2)); 
 //    }
 //
 //    @Test
